@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comming soon</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link for google font : 'Oswald' used for text. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Link for google font : 'Raleway' used for Copyright text. -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Link for Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link for Devicons -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Main image div -->
+        <div class="main-img">
+            <img src="/Img/MAIN-IMG.jpg" alt="" srcset="" id="image">
+            <h2 id="live">Live now</h2>
+            <p id="heading">Countdown for launch</p>
+        </div>
+
+    </div>
+
+    <!-- Timer div -->
+    <div id="timer">
+
+        <section><span id="days">00 </span>
+            <p>Days</p>
+        </section>
+        <span>:</span>
+
+        <section><span id="hours">00</span>
+            <p>Hrs</p>
+        </section>
+        <span>:</span>
+
+        <section>
+            <span id="minutes">00</span>
+            <p>Mins</p>
+        </section>
+        <span>:</span>
+
+        <section>
+            <span id="seconds"><span style="color: rgb(54, 113, 196);">00</span></span>
+            <p>Sec</p>
+        </section>
+
+    </div>
+
+    <!-- Links div -->
+    <div class="links">
+
+        <ul>
+            <a class="pip" href="https://www.instagram.com/manish_ashok_sonwane_/" target="_blank">
+                <li><i class="fa-brands fa-instagram "></i></li>
+            </a>
+
+            <a class="pip" href="https://www.linkedin.com/in/manish-sonawane-599baa264/" target="_blank">
+                <li><i class="fa-brands fa-linkedin"></i></li>
+            </a>
+
+            <a class="pip" href="https://github.com/Manish9322" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+        </ul>
+
+        <!-- Last Copyright div -->
+    </div>
+    <div class="copyright">
+        <p>Designed and developed by Manish Sonawane. <i class="fa-regular fa-copyright"></i></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
