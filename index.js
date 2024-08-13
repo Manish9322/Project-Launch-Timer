@@ -1,7 +1,7 @@
 
 // Set your timer here and then once the time is complete, your site will go live.
 
-let countdownDate = new Date("Oct 31, 2024 00:00:00").getTime();
+let countdownDate = new Date("Oct 31, 2024 12:30:00").getTime();
 
 let x = setInterval(function () {
     let now = new Date().getTime(); // This will use local time
@@ -41,7 +41,7 @@ let x = setInterval(function () {
         
         // here we need to provide the URL of the site where the user will be directed.
         setTimeout(() =>{
-            // window.location.href="https://manish9322.github.io/Snake_Game/";
+            window.location.href="https://manish9322.github.io/Snake_Game/";
 
         },1000);
 
