@@ -95,12 +95,40 @@ body {
     margin: 1rem 0 1rem 0;
 }
 
+@media (max-width:799px){
+
+    .container{
+        width: 100%;
+    }
+
+    .main-img{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-img img{
+        width: 100%;
+        height: auto;
+    }   
+
+    #timer span {
+        display: inline-block;
+        min-width: 31px;
+        font-size: 48px;
+    }
+
+    .copyright{
+        padding: 1rem 0 1rem 0; 
+    }  
+}
+
 
 @media (max-width: 477px){
 
     .container{
         width: 100%;
-
     }
 
     .main-img{
@@ -125,7 +153,6 @@ body {
         max-width: 10px;
         display: flex;
         justify-content: center;
-    
     }
 
     #timer section{
@@ -142,5 +169,4 @@ body {
     .copyright p{
         padding: 3rem 1rem 0 1rem;
     }
-
 }
